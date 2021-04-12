@@ -54,7 +54,7 @@ if(isset($_POST["btn-signup"])){
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-						Đăng Ký
+						Sign up
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">

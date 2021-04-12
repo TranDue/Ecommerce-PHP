@@ -22,7 +22,7 @@
 
 <div class="container text-center">
     <div class="col-sm-3 panel panel-danger">
-        <h3 class="panel-heading">Danh Mục</h3>
+        <h3 class="panel-heading">Category</h3>
         <ul class="list-group">
         <?php
             foreach($cates as $item){
@@ -32,7 +32,7 @@
         </ul>
     </div>
     <div class="col-sm-9">
-        <h3 class="panel-heading">Chi Tiết Sản Phẩm</h3>
+        <h3 class="panel-heading">Product Details</h3>
         <div class="row">
             <div class="card"style="width: 25rem;">
                 <img class="card-img-top" src="<?php echo "".$prod["Picture"];?>" class="img-responsive" style="width: 100%;" alt="Image">
@@ -54,7 +54,7 @@
             </div>
             </div>
         </div>
-        <h3 class="panel-heading">Sản Phẩm Liên Quan</h3>
+        <h3 class="panel-heading">Recommend</h3>
         <div class="row">
             <?php
             foreach($prods_relate as $item){

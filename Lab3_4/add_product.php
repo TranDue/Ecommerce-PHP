@@ -52,7 +52,7 @@
             </a>
             <div class="row">
                 <div class="lbltitle">
-                    <label for="">Ten San Pham</label>
+                    <label for="">Product Name</label>
                 </div>
                     <div class="lblinput">
                     <input class="input-add" type="text" name ="txtName" value="<?php echo isset ($_POST["txtName"]) ? $_POST["txtName"]:"";?>">
@@ -62,7 +62,7 @@
             <!-- Mo ta san pham -->
             <div class="row">
                 <div class="lbltitle">
-                    <label for="">Mo Ta San Pham</label></div>
+                    <label for="">Description</label></div>
                     <div class="lblinput">
                     <textarea class="input-add" name="txtdesc" col="21" rows ="10" value="<?php echo isset ($_POST["txtdesc"]) ? $_POST["txtdesc"]:""; ?>"></textarea>
                 
@@ -71,7 +71,7 @@
             <!-- so luong san pham -->
             <div class="row">
                 <div class="lbltitle">
-                    <label for="">So luong san pham</label></div>
+                    <label for="">Amount</label></div>
                     <div class="lblinput">
                     <input class="input-add" type="number" name="txtquantity" value="<?php echo isset($_POST["txtquantity"]) ? $_POST["txtquantity"]:""; ?>" >
                     </div>
@@ -79,7 +79,7 @@
             <!-- gia san pham -->
             <div class="row">
                 <div class="lbltitle">
-                    <label for="">Gia san pham</label></div>
+                    <label for="">Price</label></div>
                     <div class="lblinput">
                     <input class="input-add" type="number" name="txtprice" value="<?php echo isset($_POST["txtprice"]) ? $_POST["txtprice"]:""; ?>" >
                 </div>
@@ -87,7 +87,7 @@
             <!-- Loai San Pham -->
             <div class="row">
                 <div class="lbltitle">
-                    <label for="">Loai San Pham</label> </div>
+                    <label for="">Category</label> </div>
                     <div class="lblinput">
                     <select name="txtCateID" class="input-select" id="">
                         <option value=""selected>---Chon Loai----</option>
@@ -105,7 +105,7 @@
             <!-- hinh anh -->
             <div class="row">
                 <div class="lbltitle">
-                    <label for="">Hinh Anh</label> </div>
+                    <label for="">Images</label> </div>
                 <div class="lblinput">
                     <input class="input-img" type="file" name="txtpic" id="txtpic" accept=".PNG,.JPG,.GIF">
                     </div>

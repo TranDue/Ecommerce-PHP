@@ -88,7 +88,7 @@ $cates = Category::list_category();
             </a>
         </div>
     </div>
-    <h1 style="text-align: center;background-color: black;color: white;">Product Popular</h1>
+    <h1 style="text-align: center;background-color: black;color: white;">Product</h1>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {},

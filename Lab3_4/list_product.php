@@ -61,7 +61,7 @@ $cates = Category::list_category();
    <div class="container text-center">
    <div class="col-lg-3">
 
-    <h1 class="my-4">Danh Mục Sản Phẩm</h1>
+    <h1 class="my-4">List Product</h1>
     <div class="list-group">
      <?php
      foreach ($cates as $row) {
@@ -72,7 +72,7 @@ $cates = Category::list_category();
 
 </div>
     <div class="col-sm-9">
-    <h3>Sản Phẩm</h3>
+    <h3>Product</h3>
     
     <div class="row">
     <?php  while ($row = mysqli_fetch_assoc($result)) { ?>

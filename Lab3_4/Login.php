@@ -9,7 +9,7 @@
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-						Đăng Nhập
+						Login
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
